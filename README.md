@@ -9,8 +9,8 @@ and can view all posts of a specific author on one page. Also, they can send a r
 link to their mail in case they forget their password.
 
 Technologies used in implementation of this web application :
-    Backend - Flask web framework in Python
-    Frontend - HTML, CSS, Bootstrap
-    Database - SQLite
-    ORM for Database - SQLAlchemy
-    Hosting - Render
+- Backend - Flask web framework in Python
+- Frontend - HTML, CSS, Bootstrap
+- Database - SQLite
+- ORM for Database - SQLAlchemy
+- Hosting - Render
