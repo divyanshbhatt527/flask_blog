@@ -1,118 +1,100 @@
 body {
-    background: #ffffff;
-    color: #333333;
-    margin-top: 5rem;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #444444;
-  }
-  
-  .bg-steel {
-    background-color: #343638;
-  }
-  
-  .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
-  }
-  
-  .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
-  }
-  
-  .site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
-  }
-  
-  .content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
-  }
-  
-  .article-title {
-    color: #444444;
-  }
-  
-  a.article-title:hover {
-    color: #428bca;
-    text-decoration: none;
-  }
-  
-  .article-content {
-    white-space:calc();
-  }
-  
-  .article-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
-  }
-  
-  .article-metadata {
-    padding-bottom: 1px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
-  }
-  
-  .article-metadata a:hover {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-  }
-  
-  .account-img {
-    height: 125px;
-    width: 125px;
-    margin-right: 20px;
-    margin-bottom: 16px;
-  }
-  
-  .account-heading {
-    font-size: 2.5rem;
-  }
-
-  .center1{
-    display:grid;
-    position:relative;
-    margin-left: 31%;
-    z-index: 100;
+  background: #ffffff;
+  color: #333333;
+  margin-top: 5rem;
 }
 
-  .button{
-    
-    background-color: #b8335d;
-    width: 140px;
-    height: 55px;
-    color: #fdfcfc;
-    border: 0px solid;
-    border-radius: 15px;
-    margin-bottom: 5%;
-    margin-top: 3%;
-    margin-left: 22%;
-    font-size: 19px;
-    font-weight: 400;
-    padding: 6px 12px;
-    box-shadow : 9px 27px 50px -9px rgb(82, 81, 81), 0 6px 20px  -24px rgba(0, 0, 0, 0.19);
-    transition: background-color 0.4s;
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
 }
 
-.button1{
-    
+.bg-steel {
+  background-color: #343638;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #b8335d;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space:calc();
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.center1{
+  display:grid;
+  position:relative;
+  margin-left: 31%;
+  z-index: 100;
+}
+
+.button{
+  
   background-color: #b8335d;
   width: 140px;
   height: 55px;
   color: #fdfcfc;
   border: 0px solid;
   border-radius: 15px;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   margin-top: 3%;
   margin-left: 22%;
   font-size: 19px;
@@ -120,55 +102,73 @@ body {
   padding: 6px 12px;
   box-shadow : 9px 27px 50px -9px rgb(82, 81, 81), 0 6px 20px  -24px rgba(0, 0, 0, 0.19);
   transition: background-color 0.4s;
-    
+}
+
+.button1{
+  
+background-color: #b8335d;
+width: 140px;
+height: 55px;
+color: #fdfcfc;
+border: 0px solid;
+border-radius: 15px;
+margin-bottom: 1%;
+margin-top: 3%;
+margin-left: 22%;
+font-size: 19px;
+font-weight: 400;
+padding: 6px 12px;
+box-shadow : 9px 27px 50px -9px rgb(82, 81, 81), 0 6px 20px  -24px rgba(0, 0, 0, 0.19);
+transition: background-color 0.4s;
+  
 }
 
 .button span.icon {
-    background: url(../static/icon_img/GitHub-Mark-Light-32px.png) no-repeat;
-    float:left;
-    width: 33px;
-    height: 36px;
+  background: url(../static/icon_img/GitHub-Mark-Light-32px.png) no-repeat;
+  float:left;
+  width: 33px;
+  height: 36px;
 }
 
 .button1 span.icon1 {
-    background: url(../static/icon_img/linkedin-3-32.png) no-repeat;
-    
-    float: left;
-    height: 33px;
-    width: 36px;
-    
-   
+  background: url(../static/icon_img/linkedin-3-32.png) no-repeat;
+  
+  float: left;
+  height: 33px;
+  width: 36px;
+  
+ 
 }
 
 .button1:hover{
-    box-shadow : 0 8px 16px -9px black, 0 6px 20px  0 rgba(0, 0, 0, 0.19);
-    background-color: #0077b5;
-    color: #fffdfd;
-    text-decoration: none;
-    border-top: #181717;
-    border-left: #181717;
-    border-right: #181717;
+  box-shadow : 0 8px 16px -9px black, 0 6px 20px  0 rgba(0, 0, 0, 0.19);
+  background-color: #0077b5;
+  color: #fffdfd;
+  text-decoration: none;
+  border-top: #181717;
+  border-left: #181717;
+  border-right: #181717;
 
 
 }
 
 .button:hover{
-    box-shadow : 0 8px 16px -9px black, 0 6px 20px  0 rgba(0, 0, 0, 0.19);
-    background-color: #292a2b;
-    color: #fffdfd;
-    text-decoration: none;
-    border-top: #181717;
-    border-left: #181717;
-    border-right: #181717;
+  box-shadow : 0 8px 16px -9px black, 0 6px 20px  0 rgba(0, 0, 0, 0.19);
+  background-color: #292a2b;
+  color: #fffdfd;
+  text-decoration: none;
+  border-top: #181717;
+  border-left: #181717;
+  border-right: #181717;
 }
 
 
 .about{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
-  margin-bottom: 8%;
-  margin-left: 30%;
-  word-spacing: 10px;
-  text-shadow: 0px 1px 2px black;
+display: flex;
+flex-wrap: wrap;
+margin-top: 2%;
+margin-bottom: 8%;
+margin-left: 30%;
+word-spacing: 10px;
+text-shadow: 0px 1px 2px black;
 }

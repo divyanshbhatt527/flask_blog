@@ -1,9 +1,9 @@
 import os
 import secrets
 from PIL import Image
-from flask import url_for, app
+from flask import url_for
 from flask_mail import Message
-from flask_app import mail
+from flask_app import mail, app
 
 
 

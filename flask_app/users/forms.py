@@ -15,7 +15,7 @@ class RegistrationForm(FlaskForm):
 
     password = PasswordField('Password', validators=[DataRequired(), Length(min = 2, max = 20)])
 
-    confirm_password = PasswordField('Password', validators=[DataRequired(), EqualTo('password')])
+    confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
 
     picture = FileField('Upload Profile Picture', validators=[FileAllowed(['jpg','png','ico'])])
 
