@@ -7,8 +7,8 @@ from flask_mail import Mail
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
-db_path = os.path.join(os.path.dirname(__file__), 'proflask_db.db')
-db_uri = 'postgres://proflask_db_user:4ZM5L6Y7KaoDjzO5Kq2g9Ft4d38sfAqT@dpg-ce7gciirrk049r5n7ur0-a/{}'.format(db_path)
+db_path = os.path.join(os.path.dirname(__file__), 'site.db')
+db_uri = 'sqlite:///{}'.format(db_path)
 app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 db = SQLAlchemy(app) 
 bcrypt = Bcrypt(app)
